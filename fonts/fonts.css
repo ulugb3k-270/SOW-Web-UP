@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Bon Vivant Family";
+  src: local("Bon Vivant Family Regular"), local("Bon-Vivant-Family-Regular"),
+    url("BonVivant-Regular.woff2") format("woff2"),
+    url("BonVivant-Regular.woff") format("woff"),
+    url("BonVivant-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Faito-DEMO";
+  src: local("Faito-DEMO"), local("Faito-DEMO-Regular"),
+    url("Faito-DEMO.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
