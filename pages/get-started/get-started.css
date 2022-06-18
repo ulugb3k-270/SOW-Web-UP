@@ -1,0 +1,72 @@
+.main {
+  padding: 46px 0 45px 50px;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+
+}
+
+.main-left {
+  position: relative;
+}
+
+.main-left > img {
+  width: 100px;
+  height: 100px;
+}
+
+.shadow-bg {
+  width: 855px;
+  height: 855px;
+  background: var(--purple);
+  border-radius: 50%;
+  position: absolute;
+  left: -316px;
+  top: -418px;
+  z-index: -1;
+}
+
+.main-left-text {
+  font-size: 35px;
+  font-family: "Bon Vivant Family";
+  margin-top: 92px;
+  margin-bottom: 30px;
+}
+
+.main-left-paragraph {
+  font-size: 70px;
+  max-width: 683px;
+  width: 100%;
+  font-family: Faito-DEMO;
+  color: var(--text-color-dark);
+  margin-bottom: 50px;
+}
+
+.main-left-button {
+  padding: 21px 61px;
+  border-radius: 10px;
+  background: black;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 172px;
+}
+
+.main-left-bottom-text {
+  font-size: 18px;
+  font-family: Gravity-700;
+  color: black;
+  text-decoration: underline;
+}
+
+.main-right-img {
+  border-radius: 10px;
+  max-width: 1000px;
+  height: 100%;
+  width: 100%;
+}

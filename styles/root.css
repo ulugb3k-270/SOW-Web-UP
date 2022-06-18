@@ -1,0 +1,35 @@
+:root {
+  --purple: #fce5ec;
+  --purple-gradient-light: linear-gradient(270deg, #ffffff 0%, #feecf1 100%);
+  --purple-gradient-footer: linear-gradient(270deg, #ffffff 0%, #f1a5ba 100%);
+  --purple-gradient-header: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #f1a5ba 101.65%
+  );
+  --paragraph-color: #09102e;
+  --text-color-dark: #4f4f4f;
+  --text-color-light: #9c9999;
+  --text-color-purple: #f06491;
+  --text-color-brown: #a2845e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container-sm{
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
